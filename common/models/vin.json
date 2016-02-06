@@ -1,0 +1,27 @@
+{
+  "name": "vin",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vin": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "object"
+    },
+    "tires": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
